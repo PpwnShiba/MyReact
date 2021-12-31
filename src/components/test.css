@@ -1,0 +1,12 @@
+
+.slider{
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    border-radius: 10px;
+    height: 190px;
+    width: auto;
+}

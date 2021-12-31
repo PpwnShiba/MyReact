@@ -1,0 +1,36 @@
+
+.news img{
+    border-radius: 10px;
+    height: 200px;
+    width: auto;
+    padding: 5px;
+}
+.news h5{
+    padding: 10px;
+    font-size:18px;
+    color: grey;
+}
+.news h6{
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+    color: grey;
+} 
+
+.b-refs-buttons .prev-but, .b-refs-buttons .next-but{
+    color: #DC143C;
+}
+.b-refs-buttons{
+    text-align: end;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.prev-but, .next-but{
+    background-color: white;
+    border-radius: 3px;
+    border: 0.5px solid #DC143C;
+    padding-bottom: 5px;
+    margin-left: 2px;
+}
+
+

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ropa+Sans&display=swap');
+
+.App-grid{
+  display: inline-flex;
+  column-gap: 16px;
+  padding: 20px;
+}
+.App-grid img{
+  border-radius: 10px;
+  width: fit-content;
+  box-shadow: 5px 5px 5px grey;
+}
+.Text-home p{
+  font-size: 18px;
+  color: gray;
+}
+.Text-home h1{
+  padding-top: 50px;
+}

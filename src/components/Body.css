@@ -1,0 +1,25 @@
+.Searchbar{
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 660px;
+    margin-bottom: 30px;
+}
+.plat, .plat-3ds{
+    border: 0.3px solid Gainsboro;
+    border-radius: 5px;
+    padding-left: 30px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.plat img{
+    width: auto;
+    height: 25px;
+}
+.Nav{
+    color: #909497;
+    padding-left: 30px;
+}
+.Nav:hover{
+    color:  #e74c3c ;
+}
