@@ -1,4 +1,4 @@
-import './GameItems.css';
+import './Body.css';
 
 function GameItems(props){ /**/ 
     const{ game } = props;

@@ -12,7 +12,7 @@ const NewsSliderdata = [
     },
     {
       image: '/images/news-04.avif',
-      title: 'Nintendo Switch bundle and numerous deals on games highlight Nintendo’s Black Friday offerings',
+      title: 'Nintendo Switch bundle and numerous deals on games',
       date: '11/08/21'
     },
     {
@@ -22,7 +22,7 @@ const NewsSliderdata = [
     },
     {
       image: '/images/news-06.avif',
-      title: 'New details and trailers revealed for upcoming Pokémon Brilliant Diamond, Pokémon Shining Pearl, and Pokémon Legends: Arceus games',
+      title: 'New details and trailers revealed for upcoming Pokémon Brilliant Diamond',
       date: '09/28/21'
     },
    

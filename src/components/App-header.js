@@ -1,9 +1,11 @@
-import './App-header.css';
+import './Body.css';
 import Nav from 'react-bootstrap/Nav'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
-import NavDropdown from 'react-bootstrap/NavDropdown'
+import {BsCart2, BsPersonCircle} from 'react-icons/bs'
+import{FaHeart }from 'react-icons/fa'
+
 function AppHeader(){
   
     return(
@@ -14,20 +16,15 @@ function AppHeader(){
             <Navbar.Toggle />
             <Navbar.Collapse className="justify-content-end">
             <Nav.Item>
-
-                <Nav.Link href="/home">Active</Nav.Link>
+                <Nav.Link className='cart'><BsCart2 className='BSicon'/>Cart</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                <Nav.Link eventKey="link-1">Link</Nav.Link>
+                <Nav.Link className='cart'><FaHeart className='icon'/>Wish List</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                <Nav.Link eventKey="link-2">Link</Nav.Link>
+                <Nav.Link className='login'><BsPersonCircle className='icon'/>Login/Register</Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
-                <Nav.Link eventKey="disabled" disabled>
-                    Disabled
-                </Nav.Link>
-                </Nav.Item>
+                
             </Navbar.Collapse>
             </Container>
         </Navbar>

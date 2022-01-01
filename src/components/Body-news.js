@@ -11,26 +11,26 @@ function BodyNews(){
   
     return(
     <div>
-        <p>
-            <span>News</span>
+        <div>
+
             <Gallery className="news" data={NewsSliderdata}/>
-        </p>
-        <p>
-            Sales and Deals
+        </div>
+        <div>
+           
             <Gallery data={SalesData}/>
-        </p>
-        <p>
-            New Releases
+        </div>
+        <div>
+          
             <Gallery data={NewReleasesData}/>
-        </p>
-        <p>
-            Coming Soon
+        </div>
+        <div>
+            
             <Gallery data={ComingSoonData} />
-        </p>
-        <p>
-            Most Popular
+        </div>
+        <div>
+            
             <Gallery data={MostPopularData} />
-        </p>
+        </div>
         
     </div>
     );

@@ -7,7 +7,7 @@
 }
 .news h5{
     padding: 10px;
-    font-size:18px;
+    font-size:16px;
     color: grey;
 }
 .news h6{
@@ -19,7 +19,9 @@
 
 .b-refs-buttons .prev-but, .b-refs-buttons .next-but{
     color: #DC143C;
+    margin-top: 20px;
 }
+
 .b-refs-buttons{
     text-align: end;
     margin-right: 20px;
@@ -31,6 +33,12 @@
     border: 0.5px solid #DC143C;
     padding-bottom: 5px;
     margin-left: 2px;
+    display: inline;
 }
-
+.headtopic{
+    margin-top: 20px;
+    margin-left: 5px;
+    color: #DC143C;
+    font-size: 20px;
+}
 

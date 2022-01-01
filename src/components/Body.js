@@ -1,19 +1,19 @@
-import Form from 'react-bootstrap/Form'
-import FormControl from 'react-bootstrap/FormControl'
-import Button from 'react-bootstrap/Button'
+
 import Nav from 'react-bootstrap/Nav'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
 import './Body.css';
 import BodyNews from './Body-news'
+import {FaSearch} from 'react-icons/fa'
+import {MdArrowForwardIos} from 'react-icons/md'
 
+import Foot from './Foot';
 
 
 function BodyPage(){
   return(
-    <Container >
-      <div className="Body">
+      <div className="Body container side">
       
           <Row>
             <Col sm={2}>
@@ -43,15 +43,12 @@ function BodyPage(){
                 <Nav.Link className="Nav">Fighting</Nav.Link>
                 <Nav.Link className="Nav">Health & Fitness</Nav.Link>
                 <Nav.Link className="Nav">Music</Nav.Link>
-                <Nav.Link className="Nav">Party</Nav.Link>
-                <Nav.Link className="Nav">Platformer</Nav.Link>
                 <Nav.Link className="Nav">Puzzle</Nav.Link>
                 <Nav.Link className="Nav">Racing</Nav.Link>
                 <Nav.Link className="Nav">RPG</Nav.Link>
                 <Nav.Link className="Nav">Shooter</Nav.Link>
                 <Nav.Link className="Nav">Simulation</Nav.Link>
                 <Nav.Link className="Nav">Sports</Nav.Link>
-                <Nav.Link className="Nav">Strategy</Nav.Link>
 
                 <Nav.Link eventKey="disabled" disabled>
                   MULTIPLAYER
@@ -65,24 +62,23 @@ function BodyPage(){
             </Col>
             <Col sm={10}>
               <div>
-                <Form className="Searchbar d-flex">
-                  <FormControl
-                    type="search"
-                    placeholder="Search for a game..."
-                    className="me-2"
-                    aria-label="Search"
-                  />
-                 
-                </Form>
-
+                <input className='searchbar' type="text" placeholder="Search for a game . . ."></input>
+                <button type="submit" class="searchButton">
+                  <FaSearch />
+                </button>
                 <BodyNews/>
                
               </div>
             </Col>
           </Row>
-      
+          <div className='morebutton'>
+            <button>More Nintendo Games<MdArrowForwardIos/></button>
+          </div>
+          <Foot/>
       </div>
-    </Container>
+      
+    
+   
   );
 }
 export default BodyPage;

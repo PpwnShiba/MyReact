@@ -4,7 +4,7 @@ import AppHeader from './components/App-header';
 import CoverHome from './components/cover-home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import BodyPage from './components/Body';
-
+import Foot from './components/Foot';
 
 function App() { /*แปลงอาเรย์เป็นตัว compement*/ 
   // const GameElements = GameList.map((game, index) =>{

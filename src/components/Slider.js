@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import './test.css'
+import './Body.css'
 import '../components/News.css'
 import {MdArrowForwardIos,MdOutlineArrowBackIosNew } from 'react-icons/md';
 
@@ -67,7 +67,9 @@ const Gallery = ({data}) => {
             1024: { items: 3 },
         };
         return [
+            
             <div className="b-refs-buttons">
+                <span className='headtopic'>News</span>
                 <button className="prev-but" onClick={slidePrev}>
                     <MdOutlineArrowBackIosNew />
                 </button>
@@ -96,6 +98,7 @@ const Gallery = ({data}) => {
      
         return [
             <div className="b-refs-buttons">
+            <span className='headtopic'>New Releases</span>
             <button className="prev-but" onClick={slidePrev}>
                 <MdOutlineArrowBackIosNew />
             </button>
@@ -122,6 +125,7 @@ const Gallery = ({data}) => {
         
         return [
             <div className="b-refs-buttons">
+                 <span className='headtopic'>Coming Soon</span>
                 <button className="prev-but" onClick={slidePrev}>
                     <MdOutlineArrowBackIosNew />
                 </button>
@@ -149,6 +153,7 @@ const Gallery = ({data}) => {
         
         return [
             <div className="b-refs-buttons">
+                 <span className='headtopic'>Deals</span>
                 <button className="prev-but" onClick={slidePrev}>
                     <MdOutlineArrowBackIosNew />
                 </button>
@@ -176,6 +181,7 @@ const Gallery = ({data}) => {
         
         return [
             <div className="b-refs-buttons">
+                <span className='headtopic'>Most Popular</span>
                 <button className="prev-but" onClick={slidePrev}>
                     <MdOutlineArrowBackIosNew />
                 </button>
